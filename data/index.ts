@@ -1,9 +1,8 @@
-
+```js
 // NAVIGATION
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -111,7 +110,7 @@ export const socialMedia = [
   },
 ];
 
-// EXTRA SKILLS (OPTIONAL SECTION)
+// EXTRA SKILLS
 export const skills = [
   "TypeScript",
   "React",
@@ -120,3 +119,4 @@ export const skills = [
   "Next.js",
   "Tailwind CSS",
 ];
+```
