@@ -1,4 +1,4 @@
-```js
+
 // NAVIGATION
 export const navItems = [
   { name: "About", link: "#about" },
@@ -120,4 +120,3 @@ export const skills = [
   "Next.js",
   "Tailwind CSS",
 ];
-```
