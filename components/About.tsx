@@ -1,4 +1,4 @@
-```jsx
+
 import React from "react";
 import { Sparkle } from "./ui/Sparkle";
 import { myTechStack } from "@/data";
@@ -71,4 +71,3 @@ const About = () => {
 };
 
 export default About;
-```
