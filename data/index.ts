@@ -8,47 +8,54 @@ export const navItems = [
 export const myTechStack = [
   "HTML",
   "CSS",
-  "SCSS",
   "Tailwind",
-  "ShadCn/UI",
   "Figma",
-  "Framer",
   "JavaScript (ES6+)",
   "React",
   "Next.js",
   "TypeScript",
-  "Jest",
   "Git",
-  "TanStack Query",
   "CI/CD",
-  "Jira",
   "Agile",
+  "Java",
+  "Python",
+  "Retrieval Augumented Generation",
+  "Flask",
+  "Django",
+  "PostgreSQL",
+  "MYSQL",
+  "MongoDB",
+  "VectorDB",
+  "Testing",
+  "Code Reviewing"
 ];
 
 export const projects = [
   {
     id: 1,
-    title: "FitLorem: Your Lorem Buddy in Code",
+    title: "CallGuard AI – AI-Based Scam Call Detection System",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatumofficiis, eum modi inventore natus velit voluptates laudantium nam!",
+      "CallGuard AI – AI-Based Scam Call Detection System
+"A real-time application to analyze live call audio and generate automated scam-risk scores with analysis."
+
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     titleClassName: "justify-end",
     img: "https://i.pinimg.com/originals/be/f4/1a/bef41a7d5a877841bbf7d8f9f0d42f14.gif",
-    github: "https://github.com/codewithty",
+    github: "https://github.com/ASHU-KUMAR11/CallGuardAI",
     link: "https://www.instagram.com/codewithty",
-    techs: ["JavaScript", "React", "NodeJS", "Express", "MongoDB", "Tailwind"],
+    techs: ["React.js","Node.js","PostgreSQL","Hugging Face Models","Python"],
   },
   {
     id: 2,
-    title: "TimeLorem: Never Miss a Lorem Ipsum",
+    title: "CGC Inquira – AI Based Query Handling System",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, officiis, eum modi inventore natus velit voluptates laudantium nam.",
+      "An AI-powered college assistant chatbot that uses semantic search and LLaMA Model based generation to deliver accurate, real-time responses to admission, course, and campus queries.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     titleClassName: "justify-start",
     img: "https://i.pinimg.com/originals/84/f6/d1/84f6d14f1f88d34d3956150d19060d3a.gif",
-    github: "https://github.com/codewithty",
+    github: "",
     link: "https://codewithty/academy",
-    techs: ["JavaScript", "React", "NodeJS", "AWS", "GitHub", "Jira"],
+    techs: ["JavaScript", "React", "NodeJS", "ChromaDB", "GitHub", "LLAMA Model","RegressFlow"],
   },
   {
     id: 3,
@@ -64,15 +71,15 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Lorem Quest: Level Up With CWT",
+    title: "Demand Forecasting For Perishable Food Supply Chains",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, officiis, eum modi inventore natus velit voluptates laudantium nam.",
+      "Demand forecasting model that predicts unit demand, integration with SAP IBP  and visualizes trends for 7-day, 14-day, and 30-day Horizons.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     titleClassName: "justify-start",
     img: "https://i.pinimg.com/736x/c7/de/01/c7de016c811fa5fae9d7120402f27645.jpg",
-    github: "https://github.com/codewithty",
+    github: "",
     link: "https://codewithty.dev",
-    techs: ["JavaScript", "NodeJS", "Express", "React", "Heroku", "GitHub"],
+    techs: ["React","Node","LSTM","MYSQL","REST API"],
   },
   {
     id: 5,
@@ -88,96 +95,42 @@ export const projects = [
   },
   {
     id: 6,
-    title: "Universe Lorem: Code Your Way Through Galaxies",
+    title: "E-Learning Platform",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, officiis, eum modi inventore natus velit voluptates laudantium nam.",
+      "Platform to manage courses, content delivery, and student interactions in a structured online learning environment.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     img: "https://i.pinimg.com/originals/bf/c3/fb/bfc3fb764ff5f4d8d9ecb6da8544709c.gif",
-    github: "https://github.com/codewithty",
+    github: "https://github.com/ASHU-KUMAR11/course_management",
     link: "https://codewithty.dev/contact",
-    techs: ["JavaScript", "React", "NodeJS", "CSS", "NextJS", "GitHub"],
+    techs: ["MYSQL","JavaScript", "React", "NodeJS", "CSS", "NextJS", "GitHub","Auth"],
   },
 ];
 
-export const workExperience = [
-  {
-    id: 1,
-    company: "Company",
-    title: "UX/UI Sorcerer",
-    desc: "Transformed the user dashboard with a sleek design that boosted engagement by 35%. Optimized the onboarding flow to make new users feel like wizards on their first try.",
-    className: "md:col-span-2",
-    location: "Los Angeles",
-    period: "Start Date - End Date",
-    skills: [
-      "Figma",
-      "Sketch",
-      "Prototyping",
-      "User Testing",
-      "Illustrator",
-      "Adobe XD",
-    ],
-  },
-  {
-    id: 2,
-    company: "Company",
-    title: "Product Design Genius",
-    desc: "Revamped the interface with intuitive controls, increasing user retention by 28%. Pioneered AR features for interactive learning experiences—because education should be fun and engaging.",
-    className: "md:col-span-2",
-    location: "Lagos, Nigeria",
-    period: "Start Date - End Date",
-    skills: [
-      "Figma",
-      "User Research",
-      "Wireframing",
-      "Prototyping",
-      "Usability Testing",
-      "CSS",
-    ],
-  },
-  {
-    id: 3,
-    company: "Company",
-    title: "Design Systems Guru",
-    desc: "Crafted design systems that were so organized they could be put in a museum. Pushed for consistent, user-friendly components that made developers’ lives easier.",
-    className: "md:col-span-2",
-    location: "Remote",
-    period: "Start Date - End Date",
-    skills: [
-      "Figma",
-      "React",
-      "Design Tokens",
-      "Accessibility",
-      "Storybook",
-      "Collaboration",
-    ],
-  },
-];
+
+ 
+    
 
 export const socialMedia = [
   {
     id: 1,
     img: "assets/git.svg",
-    link: "https://github.com/codewithty",
+    link: "https://github.com/ASHU-KUMAR11",
   },
   {
     id: 2,
     img: "assets/linkedin.svg",
-    link: "#",
+    link: "http://linkedin.com/in/ashish-kumar136",
   },
   {
     id: 3,
     img: "assets/web.svg",
-    link: "https://codewithty.dev",
+    link: "",
   },
-  {
-    id: 3,
-    img: "assets/insta.svg",
-    link: "https://www.instagram.com/codewithty",
-  },
+  
   {
     id: 3,
     img: "assets/link.svg",
-    link: "https://github.com/codewithty",
+    link:"goyalashish136@gmail.com",
   },
 ];
 
