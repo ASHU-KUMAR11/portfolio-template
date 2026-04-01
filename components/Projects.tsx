@@ -1,4 +1,4 @@
-```jsx
+
 "use client";
 
 import { projects } from "@/data";
@@ -41,4 +41,3 @@ const Projects = () => {
 };
 
 export default Projects;
-```
